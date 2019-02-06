@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E88A19A2209CA5200C4FD9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88A1992209CA5200C4FD9E /* AppDelegate.m */; };
+		0E88A1A82209CA5300C4FD9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88A1A72209CA5300C4FD9E /* main.m */; };
+		0E88A1B02209CD8800C4FD9E /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88A1AF2209CD8800C4FD9E /* NSString+Extension.m */; };
+		0E88A1B52209D0B200C4FD9E /* LanguageJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E88A1B42209D0B200C4FD9E /* LanguageJSONModel.m */; };
+		0E88A1BD2209DA0600C4FD9E /* Localizablestrings in Resources */ = {isa = PBXBuildFile; fileRef = 0E88A1BC2209DA0600C4FD9E /* Localizablestrings */; };
+		140852EF3D26434819DDEC57 /* libPods-AutoLocalization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FAF786DD09C4BE1F15D55 /* libPods-AutoLocalization.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E88A1952209CA5200C4FD9E /* AutoLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E88A1982209CA5200C4FD9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E88A1992209CA5200C4FD9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E88A1A62209CA5300C4FD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E88A1A72209CA5300C4FD9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E88A1AE2209CD8800C4FD9E /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		0E88A1AF2209CD8800C4FD9E /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		0E88A1B32209D0B200C4FD9E /* LanguageJSONModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanguageJSONModel.h; sourceTree = "<group>"; };
+		0E88A1B42209D0B200C4FD9E /* LanguageJSONModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageJSONModel.m; sourceTree = "<group>"; };
+		0E88A1BC2209DA0600C4FD9E /* Localizablestrings */ = {isa = PBXFileReference; lastKnownFileType = text; path = Localizablestrings; sourceTree = "<group>"; };
+		536FAF786DD09C4BE1F15D55 /* libPods-AutoLocalization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutoLocalization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9944ABA3B94EE51C810DB1B7 /* Pods-AutoLocalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLocalization.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLocalization/Pods-AutoLocalization.release.xcconfig"; sourceTree = "<group>"; };
+		AF8CA50BFC98862AE7236A23 /* Pods-AutoLocalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoLocalization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoLocalization/Pods-AutoLocalization.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E88A1922209CA5200C4FD9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140852EF3D26434819DDEC57 /* libPods-AutoLocalization.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E88A18C2209CA5200C4FD9E = {
+			isa = PBXGroup;
+			children = (
+				0E88A1972209CA5200C4FD9E /* AutoLocalization */,
+				0E88A1962209CA5200C4FD9E /* Products */,
+				211FD1C259B7CD8EA098B503 /* Pods */,
+				FFA4B4F4A23A583AF738ADB3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E88A1962209CA5200C4FD9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E88A1952209CA5200C4FD9E /* AutoLocalization.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E88A1972209CA5200C4FD9E /* AutoLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				0E88A1B92209D47900C4FD9E /* SourceLanguageFile */,
+				0E88A1982209CA5200C4FD9E /* AppDelegate.h */,
+				0E88A1992209CA5200C4FD9E /* AppDelegate.m */,
+				0E88A1B32209D0B200C4FD9E /* LanguageJSONModel.h */,
+				0E88A1B42209D0B200C4FD9E /* LanguageJSONModel.m */,
+				0E88A1AE2209CD8800C4FD9E /* NSString+Extension.h */,
+				0E88A1AF2209CD8800C4FD9E /* NSString+Extension.m */,
+				0E88A1A62209CA5300C4FD9E /* Info.plist */,
+				0E88A1A72209CA5300C4FD9E /* main.m */,
+			);
+			path = AutoLocalization;
+			sourceTree = "<group>";
+		};
+		0E88A1B92209D47900C4FD9E /* SourceLanguageFile */ = {
+			isa = PBXGroup;
+			children = (
+				0E88A1BC2209DA0600C4FD9E /* Localizablestrings */,
+			);
+			path = SourceLanguageFile;
+			sourceTree = "<group>";
+		};
+		211FD1C259B7CD8EA098B503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF8CA50BFC98862AE7236A23 /* Pods-AutoLocalization.debug.xcconfig */,
+				9944ABA3B94EE51C810DB1B7 /* Pods-AutoLocalization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFA4B4F4A23A583AF738ADB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536FAF786DD09C4BE1F15D55 /* libPods-AutoLocalization.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E88A1942209CA5200C4FD9E /* AutoLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E88A1AB2209CA5300C4FD9E /* Build configuration list for PBXNativeTarget "AutoLocalization" */;
+			buildPhases = (
+				06DC8249D9AFE4C670BD7733 /* [CP] Check Pods Manifest.lock */,
+				0E88A1912209CA5200C4FD9E /* Sources */,
+				0E88A1922209CA5200C4FD9E /* Frameworks */,
+				0E88A1932209CA5200C4FD9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLocalization;
+			productName = AutoLocalization;
+			productReference = 0E88A1952209CA5200C4FD9E /* AutoLocalization.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E88A18D2209CA5200C4FD9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hamid Farooq";
+				TargetAttributes = {
+					0E88A1942209CA5200C4FD9E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E88A1902209CA5200C4FD9E /* Build configuration list for PBXProject "AutoLocalization" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E88A18C2209CA5200C4FD9E;
+			productRefGroup = 0E88A1962209CA5200C4FD9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E88A1942209CA5200C4FD9E /* AutoLocalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E88A1932209CA5200C4FD9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E88A1BD2209DA0600C4FD9E /* Localizablestrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DC8249D9AFE4C670BD7733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoLocalization-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E88A1912209CA5200C4FD9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E88A1A82209CA5300C4FD9E /* main.m in Sources */,
+				0E88A1B52209D0B200C4FD9E /* LanguageJSONModel.m in Sources */,
+				0E88A19A2209CA5200C4FD9E /* AppDelegate.m in Sources */,
+				0E88A1B02209CD8800C4FD9E /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E88A1A92209CA5300C4FD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E88A1AA2209CA5300C4FD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E88A1AC2209CA5300C4FD9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8CA50BFC98862AE7236A23 /* Pods-AutoLocalization.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77KE7EZ35W;
+				INFOPLIST_FILE = AutoLocalization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.AutoLocalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E88A1AD2209CA5300C4FD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9944ABA3B94EE51C810DB1B7 /* Pods-AutoLocalization.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77KE7EZ35W;
+				INFOPLIST_FILE = AutoLocalization/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.AutoLocalization;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E88A1902209CA5200C4FD9E /* Build configuration list for PBXProject "AutoLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E88A1A92209CA5300C4FD9E /* Debug */,
+				0E88A1AA2209CA5300C4FD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E88A1AB2209CA5300C4FD9E /* Build configuration list for PBXNativeTarget "AutoLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E88A1AC2209CA5300C4FD9E /* Debug */,
+				0E88A1AD2209CA5300C4FD9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E88A18D2209CA5200C4FD9E /* Project object */;
+}
